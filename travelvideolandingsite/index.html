@@ -1,0 +1,48 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">
+     <title>SadaaSanchari</title>
+ </head>
+ <body>
+    <section class="showcase">
+        <header>
+            <h2 class="logo">Terra Adeventures</h2>
+            <div class="toggle"></div>
+        </header>
+        <video src="trekking.mp4" muted loop autoplay></video>
+        <div class="overlay"></div>
+        <div class="text">
+            <h2>Let's Begin A New Journey</h2>
+            <h3>What is adventure trekking?</h3>
+            <p>Being a soft-adventure sport, almost anyone in reasonable physical condition can go trekking. To get initiated into trekking begin with day hikes, returning to your starting point in the evening. Move on to a multi-day trek which is relatively easy, in order to get to know your ability and aptitude.</p>
+            <a href="#">Invent</a>
+        </div>
+        <ul class="social">
+             <li><a href="#"><img src="img/facebook.png" alt=""></a></li>
+             <li><a href="#"><img src="img/insta.png" alt=""></a></li>
+             <li><a href="#"><img src="img/twitter.png" alt=""></a></li>
+        </ul>
+    </section>
+        <div class="menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">ContactMe</a></li>
+        </ul>  
+       </div>
+       <script>
+           const menuToggle = document.querySelector('.toggle');
+           const showcase = document.querySelector('.showcase');
+
+           menuToggle.addEventListener('click', () => {
+           menuToggle.classList.toggle('active');
+           showcase.classList.toggle('active');
+})
+       </script>
+ </body>
+ </html>
