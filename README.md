@@ -2,4 +2,4 @@
 responsive video website :  https://miniproject-olive.vercel.app
 
 
-clonewebsite mindtickle : 
+clonewebsite mindtickle :   https://abhilashs05.github.io/Stige_Projects/clonewebsite
