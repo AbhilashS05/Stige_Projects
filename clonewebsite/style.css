@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto:wght@300&display=swap');
+*{
+    margin: 0%;
+}
+.wrapper{
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.logo{
+    height:30px;
+    width: 186px;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 40px;
+    font-family:"Roboto";
+    font-weight: 400;
+    font-style:  bold;
+    font-size: 20px;
+    line-height: 30px;
+    color: #fe5000;
+}
+
+nav ul{
+    list-style-type: none;
+    /* position: relative; */
+    padding: 45px 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;    
+    
+} 
+
+nav ul li{
+    margin-left: 2em;
+}
+
+
+nav a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.726);
+    font-family: montserrat, "Trebuchet MS", Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+
+}
+
+.b1{
+    border:none;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: .9375rem;  
+    background-color: #10069F;
+    padding:10px 25px;
+    text-align: center;   
+    cursor: pointer;
+
+    
+}
+
+main{
+    width: 100%;
+ 
+}
+
+.container{
+    width: 55%;
+    /* border: 1px solid black; */
+    
+}
+
+h1{
+    margin-left: 40px;
+    margin-top: 2em;
+    font-family: montserrat, "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 3.125rem;
+    color: #10069F;
+}
+
+p{
+    margin-left: 39px;
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+    font-family: Roboto;
+    font-size: 1.5625rem;
+    color: #57514B;
+
+}
+
+.b2{
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    background-color: #fe5000;
+    font-family: montserrat, "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 0.9375rem;
+    font-weight: 800;
+    padding: 14px 25px;
+    line-height: 1.33;
+    cursor: pointer;    
+}
+
+main ul{
+    list-style-type: none;
+}
+
+.main{
+    /* position: relative; */
+    display: flex;
+}
+
+.img2{
+    /* border: 1px solid; */
+    margin-right: 100px;
+    height: 500px;
+    width: 89%;
+    object-fit: fill;
+}
