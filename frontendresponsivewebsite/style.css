@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto:wght@300&display=swap');
+*{
+    margin: 0px;
+    height: auto;
+    width: 100%;
+}
+.body{
+    width: 100%;
+}
+.header{
+    
+    margin: 25px 0px; 
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    width: auto;
+}
+.logo{
+    margin-left:30px;
+    width:20%;
+}
+.logo1{
+    height:30px;
+    width: 186px; 
+}
+
+.nav1{
+    width: 100%;
+}
+nav ul{
+    list-style-type:none;
+    display: inline-flex;
+    justify-content: space-between;
+    text-align: center;
+    width: auto;
+    gap: 40px;
+}
+
+nav ul li{
+    width: fit-content;
+    
+}
+
+nav a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.726);
+    font-family: montserrat, "Trebuchet MS", Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+
+
+}
+
+.b1{
+    border:none;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: .9375rem;  
+    background-color: #10069F;
+    padding:10px 25px;
+    text-align: center;   
+    cursor: pointer;    
+}
+
+
+.container{
+    width: 100%;
+    display: flex;
+    /* border: 1px solid black; */
+    
+}
+
+h1{
+    margin-left: 40px;
+    margin-top: 2em;
+    font-family: montserrat, "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 3.125rem;
+    color: #10069F;
+}
+
+p{
+    margin-left: 39px;
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+    font-family: Roboto;
+    font-size: 1.5625rem;
+    color: #57514B;
+
+}
+.b2{
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    background-color: #fe5000;
+    font-family: montserrat, "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 0.9375rem;
+    font-weight: 800;
+    padding: 14px 25px;
+    line-height: 1.33;
+    cursor: pointer;    
+}
+
+.img2{
+    /* border: 1px solid; */
+    margin-right: 50px;
+    height: 500px;
+    width: 89%;
+    object-fit: fill;
+}
+
+.header1{
+    width: 65%;
+    
+}
+
+.imgh{
+    width: 40;
+    margin-left: 100px;
+}
+
+@media screen and (max-width:600px) {
+    .body{
+        height:100%;
+        width: 100%;
+    }
+    .header{
+        position: relative;
+        margin-top: 20px;
+        margin-left:5px;
+        width: 90%;
+        height: 36px;
+        background: url("img/menu.png");
+        background-repeat: no-repeat;
+        background-size: 30px;
+        background-position: right;
+    }
+   .nav1{
+    display: none;
+   }
+
+   .container{
+       flex-direction: column;
+       height:auto;
+       width:100%;
+   }
+
+    h1{
+        font-size: 30px;
+        width: 100%;
+    
+    }
+
+    p{
+        font-size: 20px;
+        margin-top: 25px;
+        width: 100%;
+    }
+
+    ul{
+        margin-top: 35px;
+    }
+
+    .b2{
+        padding:10px 20px;
+        font-size: 0.835rem;      
+    }
+
+    .imgh{
+        margin-top: 60px;
+        margin-left:15px;
+        height:50%;
+        width: 95%;
+    }
+}
